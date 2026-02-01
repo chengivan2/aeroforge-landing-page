@@ -71,12 +71,25 @@ body {
     padding: 20px 24px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
 .logo img {
     height: 40px;
     transition: var(--transition-smooth);
 }
 
-.logo img:hover {
+.logo-text {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--text-primary);
+    letter-spacing: -0.5px;
+}
+
+.logo:hover img {
     transform: scale(1.05);
 }
 
@@ -610,9 +623,15 @@ body {
     padding-bottom: 60px;
 }
 
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
 .footer-logo img {
     height: 40px;
-    margin-bottom: 20px;
 }
 
 .footer-tagline {
